@@ -3,7 +3,6 @@ package org.example;
 import java.util.Scanner;
 
 public class MyCaluclator {
-    // psvm + tab
 
     public static void main(String[] args) {
         boolean isActive = true;
@@ -21,31 +20,31 @@ public class MyCaluclator {
             switch (OperationType) {
                 case "+":
                     result = addition(number1, number2);
-                    //result = number1 + number2;
-                    // System.out.println(number1 + number2);
+                    result = number1 + number2;
+                     System.out.println(number1 + number2);
                     break;
 
                 case "-":
                     result = subtraction(number1, number2);
-                    //result = number1 - number2;
-                    // System.out.println(number1 - number2);
+                    result = number1 - number2;
+                     System.out.println(number1 - number2);
                     break;
                 case "*":
                     result = multiplication(number1, number2);
-                    //result = number1 * number2;
-                    //System.out.println(number1 * number2);
+                    result = number1 * number2;
+                    System.out.println(number1 * number2);
                     break;
                 case "/":
                     result = division(number1, number2);
-                    //result = number1 \ number2;
-                    //System.out.println(number1 \ number2);
+                    result = number1 / number2;
+                    System.out.println(number1 / number2);
                     break;
                 default:
                     System.out.println("operationType is not valid");
 
             }
             System.out.println("Result: " + result);
-            System.out.println("wuold you like to countinou");
+            System.out.println("Would you like to continue");
             String massage = sc.next();
             if (massage.equals("n"))
                 break;
