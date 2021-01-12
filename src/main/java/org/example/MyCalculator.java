@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class MyCaluclator {
+public class MyCalculator {
 
     public static void main(String[] args) {
         boolean isActive = true;
